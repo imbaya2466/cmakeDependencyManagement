@@ -1,0 +1,10 @@
+# depend wget in linux&mac
+if (WIN32)
+    set(CMAKE_WGET_EXEC "${PROJECT_SOURCE_DIR}/tools/wget/wget-win32.exe" CACHE INTERNAL "" FORCE)
+elseif(APPLE)  
+    set(CMAKE_WGET_EXEC "wget" CACHE INTERNAL "" FORCE)
+elseif(ANDROID)      
+    set(CMAKE_WGET_EXEC "wget" CACHE INTERNAL "" FORCE)
+elseif(LINUX)  
+    set(CMAKE_WGET_EXEC "wget" CACHE INTERNAL "" FORCE)
+endif()

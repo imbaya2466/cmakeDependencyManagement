@@ -1,0 +1,3 @@
+test_failed1 http://failed1
+ffmpeg.zip https://raw.githubusercontent.com/SaveLibFile/ffmpeg-lib/master/linux/4.1.3/default/ffmpeg.zip
+test_failed2 http://failed2
